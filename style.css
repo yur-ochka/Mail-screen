@@ -1,0 +1,60 @@
+.container{
+border: 1px solid black;
+    width: 95%;
+    height: 95vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+  }
+.top-line{
+    /* border: 1px solid black; */
+    width: 99%;
+    margin-left: 1%;
+    height: 3vh;
+    position: relative;
+    box-sizing:border-box;
+    background-color:rgb(247, 245, 245);
+  }
+.btn-close{
+   position: absolute;
+	right: 0;
+	}
+.receiver{
+    margin-left: 1%;
+    border:1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    width: 98%;
+    top: 0;
+}
+.topic{
+    margin-left: 1%;
+    margin-top: 1%;
+    border:1px solid black;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    position: relative;
+    width: 98%;
+    top: 0;
+}
+.main-message{
+    resize: none;
+    margin-left: 1%;
+    width: 98%;
+    height:79vh;
+    border:0;
+}
+.formatting-line{
+    /* border: 1px solid black; */
+    margin-left: 2%;
+    width: 96%;
+    height: 5vh;
+    position: relative;
+    bottom: 0;
+}
