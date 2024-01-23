@@ -46,15 +46,20 @@ border: 1px solid black;
 .main-message{
     resize: none;
     margin-left: 1%;
+    margin-top: 1%;
     width: 98%;
     height:79vh;
     border:0;
 }
 .formatting-line{
     /* border: 1px solid black; */
-    margin-left: 2%;
-    width: 96%;
+    margin-left: 1%;
+    width: 98%;
     height: 5vh;
     position: relative;
     bottom: 0;
+}
+.icons {
+    position: relative;
+    width: 5%;
 }
